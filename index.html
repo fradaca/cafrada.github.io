@@ -1,45 +1,70 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<meta charset="UTF-8"/>
+
 <title>
 
     Bienvenido
 
 </title>
 
+
+<link href="css/estilo.css" rel="stylesheet">
+
+<style type="text/css">
+
+body{
+    margin: 0;
+    height: auto;
+    width: auto;
+    background-color: #264e8a;
+    }
+p{
+    background-color: #264e8a;
+    margin: 0;
+    color: white;
+    height: auto;
+    text-align: center;
+}
+#superior{
+    background-image: url("Images/Fondo.jpg");
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 295px;
+    width: auto;
+
+}
+
+#banner{
+
+    background-image: url("Images/Degradado.jpg");
+    color: white;
+    text-align: center;
+    background-color: #264e8a;
+    height: 600px;
+    width: auto;
+    background-repeat: repeat-x;
+    margin: 0;
+
+}
+
+</style>
+
 <body>
 
-    <h2 style="color: crimson">
+<div id="superior">
 
-        Bienvenidos al curso
+</div>
 
-    </h2>
+<div id="banner">
 
-    <p>
-        <h3 style="color: blue">
 
-            Mi nombres es {{mi_nombre}} tengo {{mi_edad}} años y soy {{mi_rol}}
 
-        </h3>
+</div>
 
-    </p>
-
-    <p>
-        <strong>
-            La lista de temas a tratar son:
-        </strong>
-
-        <ul>
-            {% for temas in lista_temas %}
-
-                <li>{{temas}}</li>
-
-            {% endfor %}
-
-        </ul>
-    </p>
 
 </body>
+
+<a href="Segunda.html">CLICK AQUI</a>
 
 
 <p>Propiedad y diseño de CAFRADA</p>
