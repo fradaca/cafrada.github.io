@@ -1,0 +1,137 @@
+
+body{
+    background: linear-gradient(black 25%,#264e8a);
+    margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+}
+
+nav{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link{
+    color: lawngreen;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: yellow;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+
+.barra_nav{
+    margin: auto;
+}
+
+.barra_nav > li {
+    float:left;
+    font-size: 30px;
+    min-width: 150px;
+    display: inline-block;
+    margin:auto;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.barra_nav li a {
+    color:#fff;
+    text-decoration:none;
+    padding:4px 6px;
+    display:block;
+}
+
+.barra_nav li ul {
+    display:none;
+    position:absolute;
+    min-width: 150px;
+    font-size: 20px;
+}
+
+.barra_nav li:hover > ul {
+    display:block;
+    margin: 0px -40px;
+    text-align: left;
+
+}
+
+.barra_nav ul li a:hover {
+    color: lightskyblue;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 27px;
+    margin: 0px -22px;
+
+}
+
+#banner {
+    background-image: url("../Images/Fondo.jpg");
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 30%;
+    width: auto;
+    margin: auto;
+}
+
+#principal{
+    margin-bottom: 200px;
+}
+
+#seccion_centro{
+    color: white;
+    text-align: left;
+    height: 400px;
+    width: auto;
+    background-repeat: repeat-x;
+    margin: 10px;
+}
+
+#seccion_centro li{
+    margin: 0px 20px;
+    border: 2px solid white;
+    width: 600px;
+    padding: 5px;
+    list-style: none;
+    color: white;
+    height: auto;
+}
+
+#seccion_centro a{
+    color: white;
+}
+
+#seccion_centro h2{
+    margin: 0px;
+}
+
+#seccion_centro span{
+    margin: 0px;
+    font-size: 17px;
+}
+
+#nombre {
+    font-family: Ani;
+    font-style: italic;
+    font-size: 1.5em;
+}
